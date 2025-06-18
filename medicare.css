@@ -1,0 +1,552 @@
+.cardiology  {
+    
+     width: 40vw; height: 50vh;
+     filter: blur(2px);
+     margin-top: 50px;
+     margin-left: 200px;
+     position: relative; border-radius: 10px;
+}
+
+.doctor {
+     animation: bounce ease-in-out 2s   alternate-reverse infinite;
+     margin-bottom: 200px;
+
+     transition: background-image 2s ease-in;
+     transform: translate(0%, 0%);
+}
+
+
+
+@keyframes bounce {
+     from {
+          transform: translateY(20px);
+     }
+
+     to {
+          transform: translateY(-50px);
+          /* background-image: url(../images/image_fx_.jpg); */
+          width: 20vw;
+          height: 20vh;   
+
+     }
+}
+
+
+
+
+
+body {
+    overflow-x: hidden;
+}
+.health:hover{
+    animation: beats 2s ease-in-out infinite alternate;
+    transition: 0.5s;
+    cursor: pointer;
+
+} 
+
+.x{
+
+    width: 1.5vw;
+    margin-top: 9px;
+    margin-left: 8px;
+    
+}
+
+.xx{
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    align-self: center; 
+:
+
+}
+
+.faceb{
+     width: 1.1vw; 
+     margin-left: 1.6px; 
+     margin-top: 2px;
+}
+
+.xx:hover{
+    display: block;
+    background-color: dodgerblue;
+    border-radius: 20px;
+}
+
+.face {
+    width: 1.1vw;
+    height: 2.6vh;
+    margin-top: 1px;
+    margin-left: px;
+    position: absolute;
+     top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    align-self: center;
+
+}
+
+.face:hover{
+     /* display: block; */
+    /* background-color: white; */
+    border-radius: 10px;
+
+}
+
+.iconic {
+
+    background-color: rgb(70, 69, 69, 0.8);
+    width: 1.3vw;
+     border-radius: 20px;
+    height: 2.6vh; 
+     margin-top: -29.5px;
+      margin-left: 11px;
+      
+
+}
+
+
+
+.ico {
+    background-color: rgba(65, 65, 65, 0.1);
+     height: 5.5vh;
+     width: 2.7vw;
+
+     position: relative; 
+
+     margin-left: 5vw; 
+     border-radius: 20px;
+}
+
+
+
+.doctor-2 {
+   background-color: rgba(65, 65, 65, 0.1);
+   height: 5.5vh;
+   width: 2.7vw;
+
+    position: relative; 
+    margin-left: 15vw; 
+    border-radius: 20px; 
+}
+
+.iframe {
+    width: 100vw;
+    height: 40vh;
+}
+
+.img {
+    
+    width: 1.5vw;
+    margin-top: 9px;
+    margin-left: 8px;
+} 
+
+
+
+.imgs {
+    
+    display: none;
+    width: 1.5vw;
+    margin-top: 9px;
+    margin-left: 8px;
+
+
+}
+
+.imgs:hover {
+  display: block;
+
+}
+
+
+.doctor-1:hover {
+     background-color: dodgerblue; 
+     position: relative;
+     height: 5.5vh;
+     border-radius: 20px;
+     width: 2.7vw; 
+}
+
+
+.doctor-1 {
+    background-color: rgba(65, 65, 65, 0.1);
+    height: 5.5vh;
+    width: 2.7vw;
+
+    position: relative; 
+    margin-left: 5vw; 
+    border-radius: 20px;
+}
+
+.doctor-3{
+     background-color: rgba(65, 65, 65, 0.1);
+    height: 5.5vh;
+     width: 2.7vw;
+
+     position: relative; 
+
+     margin-left: 15vw; 
+     border-radius: 20px;
+}
+
+.iconic:hover{
+  position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: .5s ease;
+    /* background-color: white; */
+}
+
+.dropdown a  {
+    display: none;
+}
+
+
+.dropdown:hover  a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: dodgerblue; 
+    border-radius: 10px;
+    top: 0;
+}
+
+
+.design > span {
+  font-size: small;
+}
+
+.design {
+    margin-left: 5vw;
+}
+.tel {
+    background-color: rgb(11, 107, 203);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.icons {
+    background-color: rgba(65, 65, 65, 0.1);
+    height: 5.5vh;
+     width: 2.7vw;
+
+     position: relative; 
+
+     margin-left: 5vw; 
+     border-radius: 20px;
+     
+}
+
+.linked-in {
+    background-color: rgba(65, 65, 65, 0.1);
+    height: 5.5vh;
+     width: 2.7vw;
+
+     position: relative; 
+     margin-left: 5vw; 
+     border-radius: 20px;
+     margin-left: 17vw; 
+      margin-top: -2.5vw
+}
+
+.linked-in:hover {
+    background-color: dodgerblue; 
+    cursor: pointer;
+}
+
+.linked-inn {
+     background-color: rgba(65, 65, 65, 0.1);
+    height: 5.5vh;
+     width: 2.7vw;
+
+     position: relative; 
+     margin-left: 5vw; 
+     border-radius: 20px;
+     margin-left: 27vw; 
+      margin-top: -2.5vw
+}
+
+.link {
+   position: absolute; 
+}
+
+.linked-inn:hover {
+  background-color: dodgerblue; 
+    cursor: pointer;
+}
+
+.iconss {
+    position: relative;
+    height: 5.5vh;
+     border-radius: 20px;
+     width: 2.7vw; 
+     background-color:  rgba(65, 65, 65, 0.1);
+}
+
+.iconss:hover {
+     /* background-color: dodgerblue;  */
+     position: relative;
+    height: 5.5vh;
+     border-radius: 20px;
+     width: 2.7vw; 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: dodgerblue; 
+    border-radius: 20px;
+} 
+
+
+
+.overlaying {
+    display: none;
+    height: 5.5vh;
+    width: 2.7vw;
+    position: absolute; 
+    margin-top: -2.1vw; 
+    margin-left: -0.1vw;
+    border-radius: 20px;
+    border:1px solid rgb(180, 178, 178); 
+
+}
+
+.twitter:hover{
+    
+     position: relative;
+     height: 5.5vh;
+     border-radius: 20px;
+     width: 2.7vw; 
+     border: 1px solid dodgerblue;
+     
+} 
+
+.twitter {
+   
+    height: 5.5vh;
+    width: 2.7vw;
+    position: relative; 
+    margin-left: vw; 
+    border-radius: 20px;
+    border:1px solid rgb(180, 178, 178); 
+
+}
+
+.footer > a {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(86, 84, 84);
+
+}
+
+#submit {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 11px;
+    padding-bottom: 11px; 
+    border: none;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: rgb(6, 108, 209);
+    margin-top: 1px;
+    
+}
+
+.footer-input {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    border: none;
+    border-radius: 3px;
+    width: 10vw;
+    font-size: 14px;
+}
+
+.footer-icons {
+    margin-top: 2vw;
+}
+
+.footer{
+  margin-left: 4vw;
+}
+
+footer {
+    background-color: aliceblue;
+    border-top: 1px solid rgba(78, 142, 206, 0.2);
+    display: flex; 
+    gap: 6vw;
+    height: 60vh;
+}
+
+#medicare {
+    margin-top: 2vw;
+    margin-left: 4vw;
+
+}
+
+.overlaying:hover {
+    display: block;
+    position: absolute;
+     height: 5.5vh;
+     border-radius: 20px;
+     width: 2.7vw; 
+     border: 1px solid dodgerblue;
+}
+
+.footer > h5 {
+    margin-bottom: 1.5vw;
+}
+
+.footer > h5 {
+  margin-top: 3vw;
+}
+
+.twit:hover{
+
+    
+    border-radius: 20px;
+}
+ 
+.twit {
+    width: 2vw;
+    margin-top: 0.7vw;
+    margin-left: 0.3vw;
+}
+
+#img {
+    margin-top: 0.5vw;
+    width: 1.6vw;
+    margin-left: 0.5vw;
+}
+
+.overlays {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.overlays:hover {
+    opacity: 1;
+}
+
+
+
+.overlay:hover{
+    opacity: 1;
+}
+
+
+
+.shadowing {
+    transition: transform  0.7s ;
+}
+
+.shadowing:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(107, 105, 105, 0.8);
+}
+
+.icons:hover  {
+    background-color: dodgerblue; 
+    cursor: pointer;
+    
+}
+
+@keyframes beats{
+    0% {
+        transform: scale(1);
+
+    }
+
+    60% {
+        transform: scale(0.9);
+        box-shadow: 10px 10px 5px rgb(244, 102, 102);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.inner-div {
+    transition: transform 0.5s ;
+}
+
+.inner-div:hover {
+    transform: translateY(-12px);
+    box-shadow: 1px 5px 5px rgb(27, 22, 22, 0.5);
+}
+
+
+.scale:hover {
+     transform: scale(1.2);
+    transition: ease-in-out 1.2s;
+    cursor: pointer;
+}
+
+
+.service:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 1s;
+    cursor: pointer;
+}
+
+.services {
+    margin-top: 40px;
+}
+
+.emergency {
+    animation: rotate  8s linear infinite;
+}
+ 
+@keyframes rotate {
+    
+   to {
+    transform: rotate(360deg);
+   }
+    
+    
+}
+
+.shadow:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 1.5s;
+    cursor: pointer;
+}
+
+.hr {
+    width: 88vw;
+    justify-self: center;
+    background-color: rgb(199, 198, 198, 0.3);
+    height: 0.1vh;
+    margin-top: -6.4vw;
+    margin-left: -2vw;
+    
+    
+}
